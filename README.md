@@ -1,2 +1,2 @@
 # h8-p0-w3
-tugas week 3
+tugas minggu ketiga
