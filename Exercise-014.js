@@ -1,5 +1,5 @@
 function mengelompokkanAngka(arr) {    
-    arrTampung = [[],[],[]]
+  var = arrTampung = [[],[],[]]
   for(var i=0; i<arr.length; i++){
       if(arr[i]%3===0){//jika array kelipatan 3
         arrTampung[2].push(arr[i])
