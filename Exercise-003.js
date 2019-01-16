@@ -1,21 +1,10 @@
 function dataHandling(data){   
     biodata = ''
     for(var i=0; i<data.length; i++ ){
-       for(var j=0; j<data[i].length; j++ ){
-            switch(j){
-                case 0: biodata = biodata + "Nama ID : " + data[i][j] + "\n"
-                break;             
-                case 1: biodata = biodata +  "Nama Lengkap : "  + data[i][j]  + "\n"
-                break;
-                case 2: biodata = biodata +  "TTL : " + data[i][j] + " "+ data[i][j+1]  + "\n"
-                break;
-                case 3: biodata = biodata +  "Hobi : " + data[i][data[i].length-1] + "\n\n"
-                break;
-             }
-             
-        }
-        
-        
+       biodata = biodata +  "Nomor ID: " + data[i][0] + "\n" +
+                 "Nama Lengkap: " + data[i][1] + "\n" +
+                 "TTL: " + data[i][2] +" " + data[i][3] + "\n" +
+                 "Hobi: " + data[i][4] +  "\n\n"        
     }
     return biodata
 
